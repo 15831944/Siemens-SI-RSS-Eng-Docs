@@ -1,0 +1,62 @@
+//
+//      AutoCAD menu file - C:\Program Files\DesignTool\AutoCAD\Support\SBTALT.mns
+//
+
+***MENUGROUP=SBTALT
+
+***TOOLBARS
+**STANDARD_TOOLBAR_ADDITIONS
+**TB_SBTALT
+**TB_SBT_ALT
+//ID_SBTALT	[_Toolbar("SBT Customized Toolbar", _Left, _Show, 0, 0, 1)]
+//ID_PSE		[_Button("Purge, Save, and End", "PSE.bmp", "PSE.bmp")]^C^Cpse 
+//ID_SaveAs	[_Button("Save As...", "SAVEAS.bmp", "SAVEAS.bmp")]^C^Csaveas 
+		[--]
+////ID_Regen 	[_Button("Regenerate Drawing", "REGENERATE.BMP", "REGENERATE.BMP")]^C^Cregen
+////ID_Cancel 	[_Button("Cancel", "CANCEL.BMP", "CANCEL.BMP")]^C^C^C
+//		[--]
+//ID_AttsIn	[_Button("Attributes In <-", "ATTSIN.bmp", "ATTSIN.bmp")]^C^Cattsin
+//ID_AttsOut	[_Button("Attributes Out ->", "ATTSOUT.bmp", "ATTSOUT.bmp")]^C^Cattsout
+		[--]
+//ID_AttMove	[_Button("Attribute Move", "ATTMOVE.bmp", "ATTMOVE.bmp")]^C^Cattmove
+//ID_MvRot	[_Button("Move & Rotate Block", "MOVEROTATE.bmp", "MOVEROTATE.bmp")]^C^C^P(setq e (car (entsel)));\(setq pt (cdr (assoc 10 (entget //e))));move;!e;;!pt;\ROTATE;!e;;(getvar"lastpoint");\just;!e;
+//ID_EditBlock	[_Button("Edit BLock Attributes", "EDITBLOCK.bmp", "EDITBLOCK.bmp")]^C^Cd
+//ID_Burst	[_Button("Burst", "BURST.bmp", "BURST.bmp")]^C^Cburst
+		[--]
+//ID_SideBar	[_Button("Siemens SideBar", "SIDEBAR.bmp", "SIDEBAR.bmp")]^C^Csidebar
+//ID_CSAL	[_Button("Navigator/CSAL", "CSAL.bmp", "CSAL.bmp")]^C^Ccsal
+		[--]
+//ID_StdLine	[_Button("Standard Line", "LINE.bmp", "LINE.bmp")]^C^Cstdline
+//ID_ElecLine	[_Button("Electric Line", "ELECLINE.bmp", "ELECLINE.bmp")]^C^Celecline
+//ID_PDashLine	[_Button("Pneumatic Dashed Line", "PNEUDASHLINE.bmp", "PNEUDASHLINE.bmp")]^C^Cpnudash
+//ID_PSolidLine	[_Button("Pneumatic Solid Line", "PNEUSOLIDLINE.bmp", "PNEUSOLIDLINE.bmp")]^C^Cpnusolid
+		[--]
+//ID_DuctLine     [_Button("Duct Line", "DUCTLINE.bmp", "DUCTLINE.bmp")]^C^C^PDUCTLINE 
+//ID_PipeLine     [_Button("Pipe Line", "PIPELINE.bmp", "PIPELINE.bmp")]^C^C^PPIPELINE
+		[--]
+//ID_BLNLine	[_Button("BLN Line", "BLNLINE.bmp", "BLNLINE.bmp")]^C^Cblnline
+//ID_MLNLine	[_Button("MLN Line", "MLNLINE.bmp", "MLNLINE.bmp")]^C^Cmlnline
+//ID_FLN1	[_Button("FLN 1 Line", "FLNTRK1.bmp", "FLNTRK1.bmp")]^C^Cflntrk1
+//ID_FLN2	[_Button("FLN 2 Line", "FLNTRK2.bmp", "FLNTRK2.bmp")]^C^Cflntrk2
+//ID_FLN3	[_Button("FLN 3 Line", "FLNTRK3.bmp", "FLNTRK3.bmp")]^C^Cflntrk3
+		[--]
+//ID_ElecDonut	[_Button("Electric Donut", "ELECDONUT.bmp", "ELECDONUT.bmp")]^C^C^P.-LINETYPE;S;BYLAYER;;-color;red;donut;0;.06;
+//ID_PneuDonut	[_Button("Pneumatic Donut", "PNEUDONUT.bmp", "PNEUDONUT.bmp")]^C^C^P.-LINETYPE;S;BYLAYER;;-color;green;donut;0;.06;
+//ID_LineJump	[_Button("Break & Jump", "LINEJUMP.bmp", "LINEJUMP.bmp")]^C^Clinejump
+		[--]
+//ID_ITB	[_Button("Insert Title Block", "ITB.bmp", "ITB.bmp")]^C^Citb
+//ID_IRB	[_Button("Insert Revision Block", "IRB.bmp", "IRB.bmp")]^C^Cirb
+//ID_TBUPD	[_Button("Title Block Update", "TBUPD.bmp", "TBUPD.bmp")]^C^Ctbupd
+//ID_Cloud	[_Button("Insert Cloud", "CLOUD.bmp", "CLOUD.bmp")]^C^Ccloud
+		[--]
+//ID_UpdateTerm	[_Button("Update Wire Terminations", "UPDATETERM.bmp", "UPDATETERM.bmp")]^C^C^PUPDATEWIRETERMINATIONS;
+		[--]
+//ID_MoveModule	[_Button("Move MBC Module", "MODULEMOVE.bmp", "MODULEMOVE.bmp")]^C^Cmm
+//ID_EraseModule	[_Button("Erase MBC Module", "MODULEERASE.bmp", "MODULEERASE.bmp")]^C^Cem
+		[--]
+//ID_ObjSnap	[_Button("Object Snap Settings", "OBJECTSNAP.bmp", "OBJECTSNAP.BMP")]^C^Cosnap
+
+//
+//      End of AutoCAD menu file - C:\Program Files\DesignTool\AutoCAD\Support\SBTALT.mns
+//
+

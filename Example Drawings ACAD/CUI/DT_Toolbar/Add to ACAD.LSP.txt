@@ -1,0 +1,20 @@
+(setq m1 (menugroup "SBTALT"));Make sure the menugroup definition is the same as within the mnu file!
+  (if (/= m1 "SBTALT")
+    (progn
+      (if (and (= nil (findfile "SBTALT.mnu")) (= nil (findfile "SBTALT.mns")))
+			(princ "\nSBTALT menu not found. ")
+      ) ;end if
+      ;else
+      (progn
+			(if (= (findfile "SBTALT.mns") T)
+				(command "menuload" (findfile "SBTALT.mns"))
+				;else
+				(command "menuload" (findfile "SBTALT.mnu"))
+			);end if
+			(princ "SBTALT toolbar has been loaded. ")
+      ) ;end progn
+    ) ;end progn
+  ) ;end if
+
+
+  (load "burst")

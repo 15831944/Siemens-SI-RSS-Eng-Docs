@@ -1,0 +1,900 @@
+<?xml version="1.0"?>
+<!--
+Warning! Do not edit the contents of this file.
+If you attempt to edit this file using an XML editor, you could lose customization and migration functionality.
+If you need to change information in the customization file, use the Customize User Interface dialog box in the product.
+To access the Customize User Interface dialog box, click the Tools menu > Customize > Interface, or enter CUI on the command line. 
+-->
+<CustSection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FileVersion MajorVersion="0" MinorVersion="4" IncrementalVersion="1" UserVersion="1" />
+  <Header>
+    <CommonConfiguration>
+      <CommonItems>
+        <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+      </CommonItems>
+    </CommonConfiguration>
+    <WorkspaceRoot>
+      <WorkspaceConfigRoot />
+    </WorkspaceRoot>
+  </Header>
+  <MenuGroup Name="SBTBAU">
+    <MacroGroup Name="NEWGROUP">
+      <MenuMacro UID="ID_3ddistanc">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="0" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="ACAD_2038">3D Adjust Distance</Name>
+          <Command>'_3ddistance </Command>
+          <HelpString xlate="true" UID="ACAD_2042">Starts the 3DORBIT command and makes objects appear closer or farther away:  3DDISTANCE</HelpString>
+          <SmallImage Name="RCDATA_16_3DDISTANCE" />
+          <LargeImage Name="RCDATA_16_3DDISTANCE" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0001">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0005">Purge, Save,  End</Name>
+          <Command>^C^Cpse</Command>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\PSE.bmp" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\PSE.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0002">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0008">Save As</Name>
+          <Command>^C^Csaveas</Command>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\SAVEAS.bmp" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\SAVEAS.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0003">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0010">Attributes In &lt;-</Name>
+          <Command>^C^Cattsin</Command>
+          <HelpString xlate="true" UID="XLS_0011">Attributes In</HelpString>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\ATTSIN.bmp" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\ATTSIN.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0004">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0013">Attributes Out -&gt;</Name>
+          <Command>^C^Cattsout</Command>
+          <HelpString xlate="true" UID="XLS_0014">Attributes Out</HelpString>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\ATTSOUT.bmp" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\ATTSOUT.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0007">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0020">Move  Rotate Block</Name>
+          <Command>^C^C^P(setq e (car (entsel)));\(setq pt (cdr (assoc 10 (entget e))));move;!e;;!pt;\ROTATE;!e;;(getvar"lastpoint");\just;!e; </Command>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\MOVEROTATE.bmp" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\MOVEROTATE.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0008">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0022">Attribute Move</Name>
+          <Command>^C^Cattmove</Command>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\ATTMOVE.bmp" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\ATTMOVE.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0009">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0024">Edit Block</Name>
+          <Command>^C^Cd</Command>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\EDITBLOCK.bmp" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\EDITBLOCK.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0011">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0027">Burst</Name>
+          <Command>^C^Cburst</Command>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\BURST.bmp" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\BURST.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0012">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0029">Sidebar</Name>
+          <Command>^C^Csidebar</Command>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\SIDEBAR.bmp" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\SIDEBAR.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0013">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0031">CSAL</Name>
+          <Command>^C^Ccsal</Command>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\CSAL.BMP" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\CSAL.BMP" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0014">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0033">Standard Line</Name>
+          <Command>^C^Cstdline</Command>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\LINE.bmp" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\LINE.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0015">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0035">Electric Line</Name>
+          <Command>^C^Celecline</Command>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\ELECLINE.bmp" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\ELECLINE.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0016">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0037">Pnuematic Dashed Line</Name>
+          <Command>^C^Cpnudash</Command>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\PNEUDASHLINE.bmp" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\PNEUDASHLINE.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0017">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0039">Pneumatic Solid Line</Name>
+          <Command>^C^Cpnusolid</Command>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\PNEUSOLIDLINE.bmp" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\PNEUSOLIDLINE.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0018">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0041">Duct Line</Name>
+          <Command>^C^C^Pductline</Command>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\DUCTLINE.bmp" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\DUCTLINE.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0019">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0043">Pipe Line</Name>
+          <Command>^C^C^Ppipeline</Command>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\PIPELINE.bmp" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\PIPELINE.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0020">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0045">BLN Line</Name>
+          <Command>^C^Cblnline</Command>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\BLNLINE.bmp" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\BLNLINE.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0021">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0047">MLN Line</Name>
+          <Command>^C^Cmlnline</Command>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\MLNLINE.bmp" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\MLNLINE.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0022">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0049">FLN 1 Line</Name>
+          <Command>^C^Cflntrk1</Command>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\FLNTRK1.bmp" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\FLNTRK1.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0023">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0051">FLN 2 Line</Name>
+          <Command>^C^Cflntrk2</Command>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\FLNTRK2.bmp" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\FLNTRK2.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0024">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0053">FLN 3 Line</Name>
+          <Command>^C^Cflntrk3</Command>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\FLNTRK3.bmp" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\FLNTRK3.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0025">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0055">Electric Donut</Name>
+          <Command>^C^C^P.-LINETYPE;S;BYLAYER;;-color;red;donut;0;.06;</Command>
+          <HelpString xlate="true" UID="XLS_0056">Electric Donut</HelpString>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\ELECDONUT.bmp" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\ELECDONUT.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0026">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0058">Pneumatic Donut</Name>
+          <Command>^C^C^P.-LINETYPE;S;BYLAYER;;-color;green;donut;0;.06;</Command>
+          <HelpString xlate="true" UID="XLS_0059">Pneumatic Donut</HelpString>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\PNEUDONUT.bmp" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\PNEUDONUT.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0027">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0061">Break  Jump</Name>
+          <Command>^C^Clinejump</Command>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\LINEJUMP.bmp" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\LINEJUMP.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0028">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0063">Insert Title Block</Name>
+          <Command>^C^Citb</Command>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\ITB.bmp" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\ITB.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0029">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0065">Insert Revision Block</Name>
+          <Command>^C^Cirb</Command>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\IRB.bmp" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\IRB.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0030">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0067">Title Block Update</Name>
+          <Command>^C^Ctbupd</Command>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\TBUPD.bmp" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\TBUPD.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0031">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0069">Revision Cloud</Name>
+          <Command>^C^Ccloud</Command>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\CLOUD.bmp" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\CLOUD.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0032">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0071">Update Wire Terminations</Name>
+          <Command>^C^C^PUPDATEWIRETERMINATIONS</Command>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\UPDATETERM.bmp" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\UPDATETERM.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0033">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0073">Move Module</Name>
+          <Command>^C^Cmm</Command>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\MODULEMOVE.bmp" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\MODULEMOVE.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0034">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0075">Erase Module</Name>
+          <Command>^C^Cem</Command>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\MODULEERASE.bmp" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\MODULEERASE.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0035">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0077">Object Snap Settings</Name>
+          <Command>^C^Cosnap</Command>
+          <SmallImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\OBJECTSNAP.bmp" />
+          <LargeImage Name="K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\OBJECTSNAP.bmp" />
+        </Macro>
+      </MenuMacro>
+    </MacroGroup>
+    <MenuRoot>
+      <AcceleratorRoot />
+      <OverrideRoot />
+      <MouseButtonRoot>
+        <ButtonGroup UID="BGU_0001">
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Alias>ALTERNATE AUX1</Alias>
+          <ButtonItem BlankLine="true" UID="BIU_0001">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0002">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0003">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0004">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0005">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0006">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0007">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+        </ButtonGroup>
+        <ButtonGroup UID="BGU_0002">
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Alias>ALTERNATE AUX2</Alias>
+          <ButtonItem BlankLine="true" UID="BIU_0008">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0009">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0010">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0011">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0012">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0013">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0014">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+        </ButtonGroup>
+        <ButtonGroup UID="BGU_0003">
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Alias>ALTERNATE AUX3</Alias>
+          <ButtonItem BlankLine="true" UID="BIU_0015">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0016">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0017">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0018">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0019">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0020">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0021">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+        </ButtonGroup>
+        <ButtonGroup UID="BGU_0004">
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Alias>ALTERNATE AUX4</Alias>
+          <ButtonItem BlankLine="true" UID="BIU_0022">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0023">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0024">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0025">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0026">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0027">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0028">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+        </ButtonGroup>
+      </MouseButtonRoot>
+      <DigitizerButtonRoot>
+        <ButtonGroup UID="BGU_0005">
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Alias>ALTERNATE BUTTONS1</Alias>
+          <ButtonItem BlankLine="true" UID="BIU_0029">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+        </ButtonGroup>
+        <ButtonGroup UID="BGU_0006">
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Alias>ALTERNATE BUTTONS2</Alias>
+          <ButtonItem BlankLine="true" UID="BIU_0030">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+        </ButtonGroup>
+        <ButtonGroup UID="BGU_0007">
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Alias>ALTERNATE BUTTONS3</Alias>
+          <ButtonItem BlankLine="true" UID="BIU_0031">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+        </ButtonGroup>
+        <ButtonGroup UID="BGU_0008">
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Alias>ALTERNATE BUTTONS4</Alias>
+          <ButtonItem BlankLine="true" UID="BIU_0032">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+        </ButtonGroup>
+      </DigitizerButtonRoot>
+      <PopMenuRoot />
+      <ToolbarRoot>
+        <Toolbar ToolbarOrient="top" ToolbarVisible="show" xval="200" yval="200" rows="1" UID="TBU_0001">
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Alias>SBTBAU</Alias>
+          <Description xlate="true" UID="XLS_0004">SBT BAU Standard Shortcut Toolbar</Description>
+          <Name xlate="true" UID="XLS_0001">SBT BAU Shortcuts</Name>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0002">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0007">Purge, Save, &amp; End</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0001" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0003">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0009">Save As</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0002" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0004">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0008">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0018">Attributes In &lt;-</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0003" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0009">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0019">Attributes Out -&gt;</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0004" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0007">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0011">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0023">Attribute Move</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0008" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0010">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0021">Move &amp; Rotate Block</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0007" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0015">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0025">Edit Block</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0009" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0016">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0028">Burst</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0011" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0012">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0017">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0030">Sidebar</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0012" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0018">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0032">CSAL</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0013" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0013">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0019">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0034">Standard Line</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0014" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0020">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0036">Electric Line</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0015" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0021">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0038">Pnuematic Dashed Line</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0016" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0022">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0040">Pneumatic Solid Line</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0017" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0014">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0023">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0042">Duct Line</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0018" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0024">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0044">Pipe Line</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0019" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0026">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0025">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0046">BLN Line</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0020" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0027">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0048">MLN Line</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0021" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0028">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0050">FLN 1 Line</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0022" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0029">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0052">FLN 2 Line</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0023" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0030">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0054">FLN 3 Line</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0024" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0031">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0032">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0057">Electric Donut</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0025" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0033">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0060">Pneumatic Donut</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0026" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0034">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0062">Break &amp; Jump</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0027" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0035">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0036">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0064">Insert Title Block</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0028" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0038">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0068">Title Block Update</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0030" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0037">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0066">Insert Revision Block</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0029" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0039">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0070">Revision Cloud</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0031" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0040">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0041">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0072">Update Wire Terminations</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0032" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0042">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0044">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0074">Move Module</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0033" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0045">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0076">Erase Module</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0034" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0043">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0046">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0078">Object Snap Settings</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0035" />
+            </MenuItem>
+          </ToolbarButton>
+        </Toolbar>
+      </ToolbarRoot>
+      <ScreenMenuRoot />
+      <ImageMenuRoot />
+      <TabletMenuRoot>
+        <TabletMenu TabletArea="9" Rows="3" Columns="3" UID="TMU_0001">
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Alias>Alternate Tablet Menu 1</Alias>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0001">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0002">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0003">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0004">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0005">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0006">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0007">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0008">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0009">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+        </TabletMenu>
+        <TabletMenu TabletArea="9" Rows="3" Columns="3" UID="TMU_0002">
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Alias>Alternate Tablet Menu 2</Alias>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0010">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0011">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0012">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0013">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0014">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0015">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0016">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0017">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0018">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+        </TabletMenu>
+        <TabletMenu TabletArea="9" Rows="3" Columns="3" UID="TMU_0003">
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Alias>Alternate Tablet Menu 3</Alias>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0019">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0020">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0021">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0022">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0023">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0024">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0025">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0026">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0027">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+        </TabletMenu>
+        <TabletMenu TabletArea="9" Rows="3" Columns="3" UID="TMU_0004">
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Alias>Alternate Tablet Menu 4</Alias>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0028">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0029">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0030">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0031">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0032">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0033">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0034">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0035">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0036">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+        </TabletMenu>
+      </TabletMenuRoot>
+      <DoubleClickRoot />
+      <ToolPanelRoot />
+      <PanelSetRoot>
+        <PanelSet UID="PSTU_0001" />
+      </PanelSetRoot>
+      <LSPFile>K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\burst.lsp</LSPFile>
+      <LSPFile>K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\XL\XL.lsp</LSPFile>
+      <LSPFile>K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\XL\XL_Chart.LSP</LSPFile>
+      <LSPFile>K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\XL\XL_GET.lsp</LSPFile>
+      <LSPFile>K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\XL\XL_PutAtt.lsp</LSPFile>
+      <LSPFile>K:\BAU\OPSLibrary\Tools\DesignTool\Toolbar\XL\XL_PutTxt.lsp</LSPFile>
+    </MenuRoot>
+  </MenuGroup>
+</CustSection>
