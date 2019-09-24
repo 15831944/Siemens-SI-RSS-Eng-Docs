@@ -7,6 +7,7 @@ guides, operation manuals, and more.  This folder is intended to be used for
 everyday hardware-planning job tasks.  This includes creating BOM's, finding the
 right part for the job, and drafting.
 See DataSheets user guide.md for more information and detailed break-outs
+
 ---
 ### Desigo & ABT
 Sales releases, brochures, user guides, purchase guides, and technical data
