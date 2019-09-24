@@ -1,34 +1,16 @@
 # Project organization
 
+This project is broken out into many directories. These are : 
 ### DataSheets
-Folder and subfolders contain datasheets for hardware engineering. 
-Sub-folders are broken into major section : 
-#### Accessories
-    Terminal strips, pressure fittings
-#### Actuators
-    Rotary actuators for valves & dampers
-#### Application Notes
-    (Maybe remove - see WinCIS for app notes)
-#### Boxes
-    Enclosures : Hoffman & Siemens & Wiegman
-#### Chiller
-    (Maybe remove)
-#### Controllers
-    Datasheets, user guides, manuals for Siemens controllers & accessories
-    includes Field Panel Web Server, Launch Pad, FinLITE/FinGraphics
-    Compact, Modular, TXIO, BIM, PPM, and some legacy hardware
-    License guides and manuals
-    HSTIE
-    Modbus
-#### Dampers
-#### Other Devices
-#### Other Sensors
-#### Pressure
-#### TEC's
-#### Temp, Humid
-#### Terminal Boxes
-#### Valves
+DataSheets contains technical instructions, installation instructions, user
+guides, operation manuals, and more.  This folder is intended to be used for
+everyday hardware-planning job tasks.  This includes creating BOM's, finding the
+right part for the job, and drafting.
+See 
 
-
-Most files
-are .pdf type.
+### Desigo & ABT
+### Engineering Tools - Spreadsheets
+### Guidelines & Standards
+### O&M Templates
+### SAP
+### Standardized Drawings
